@@ -9,4 +9,4 @@ let somaNumeros: SomaProps = (valor1: number, valor2: number): number =>{
 
 const resultado = somaNumeros(15, 20)
 
-console.log('Resulrado da variavel: ', resultado);
+console.log('Resultado da variavel: ', resultado);
