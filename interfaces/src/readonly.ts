@@ -5,7 +5,7 @@ interface ProdutoProps{
 }
 
 let produto1: ProdutoProps = {
-    id: "1";
+    id: "1",
     nome: "tenis nike",
     descricao: "super tenis maneiro"
 }
