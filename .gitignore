@@ -1,3 +1,15 @@
 node_modules/
+dist/
 build/
-*.log
+out/
+
+# log de erros
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+Thumbs.db
+.yarn/
+.pnp.*
+.vscode/
+.exercism/
