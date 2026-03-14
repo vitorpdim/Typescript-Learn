@@ -1,3 +1,11 @@
-export function twoFer(name: string): string {
-  return name
+export function twoFer(name?: string): string {
+  if(name === undefined){
+    return "One for you, one for me."
+  }else{
+  return `One for ${name}, one for me.`
+  }
 }
+
+console.log(twoFer())
+console.log(twoFer("Alice"))
+console.log(twoFer("Do-Yun"))
