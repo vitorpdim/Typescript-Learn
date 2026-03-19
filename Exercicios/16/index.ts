@@ -13,15 +13,15 @@ function processarArray(lista: number[]): resultado {
   
 
   for (let i: number = 0; i < lista.length; i++) {
+    const atual = lista[i]!
+    soma += atual;
 
-    soma += lista[i]!;
-
-    if (lista[i]! > maior) {
-      maior = lista[i]!
+    if (atual > maior) {
+      maior = atual
     } 
     
-    if(lista[i]! < menor) {
-      menor = lista[i]!;
+    if(atual < menor) {
+      menor = atual;
     }
   }
 
